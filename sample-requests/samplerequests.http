@@ -1,0 +1,26 @@
+### User-service HTTP Requests >>>>>>>>>>>>>>>>>>>>>>>>
+
+GET http://localhost:8765/user-service/health HTTP/1.1
+
+###
+
+GET http://localhost:8765/user-service/ HTTP/1.1
+
+###
+
+POST http://localhost:8765/user-service/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Deepanjan",
+    "email": "deepanjan@gmail.com"
+}
+
+### Card-service HTTP Requests >>>>>>>>>>>>>>>>>>>>>>>>
+
+GET http://localhost:8765/card-service/health HTTP/1.1
+
+### Product-service HTTP Requests >>>>>>>>>>>>>>>>>>>>>>>>
+
+GET http://localhost:8765/product-service/health HTTP/1.1
+

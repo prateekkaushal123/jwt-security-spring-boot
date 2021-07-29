@@ -1,0 +1,9 @@
+**/.metadata/
+**/.sonarlint/
+**/target/
+**/logs/
+**/.settings/
+**/.classpath
+.project
+.idea
+**/*.iml
